@@ -10,7 +10,7 @@ export default {
   input: "index.ts",
   output: {
     file: "dist/bundle.js",
-    format: "es",
+    format: "cjs",
   },
   plugins: [
     external(),
